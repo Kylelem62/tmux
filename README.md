@@ -1,5 +1,8 @@
 # Configuring TMUX
 
+Before going any further, make sure that `XDG_CONFIG_HOME` is set to `~/.config` in your shell's configuration file. This is the default value for most shells, but it's worth checking. If not, you'll be polluting your home directory. You can easily ensure this is set by adding `export XDG_CONFIG_HOME=$HOME/.config` in your `~/.bashrc` file.
+
+
 ## Installation
 
 Install tmux on Arch Linux:
